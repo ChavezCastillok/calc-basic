@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: darkslategray;
+  font-family: "Carlito";
+  color: salmon;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+main article {
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid salmon;
+  margin: .4rem;
+}
+
+a {
+  text-decoration: none;
+  color: ghostwhite;
+  font-style: oblique;
+}
+
+a:hover {
+  background-color: black;
+  color: lightskyblue;
+}
+
+#calc {
+  width: 13rem;
+}
+
+#calc input {
+  width: 12rem;
+  height: 2rem;
+  margin: 0.5rem 0rem;
+
+  text-align: center;
+}
+
+#calc button {
+  width: 3rem;
+  height: 2rem;
+  font-weight: bold;
+}
